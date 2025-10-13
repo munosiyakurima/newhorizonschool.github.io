@@ -1,2 +1,2 @@
-# newhorizoncollege.github.io
-New Horizon College Website
+# newhorizonschool.github.io
+New Horizon School Website
