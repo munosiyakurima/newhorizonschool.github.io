@@ -122,17 +122,27 @@ h2 {
 }
 
 .profile-card {
-    width: 200px;
-    height: 220px;
     background: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover; /* Makes image fit nicely */
+    border-radius: 8px; /* Removes circle look */
+    margin-bottom: 10px;
+    border: 3px solid #ffd700; /* Yellow border */
+}
+
+.profile-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #003366; /* Navy blue text */
     font-weight: 600;
-    color: #1e3a8a;
-    transition: all 0.3s ease;
 }
 
 .profile-card:hover {
@@ -193,3 +203,4 @@ footer .copyright {
         font-size: 24px;
     }
 }
+
