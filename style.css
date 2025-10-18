@@ -204,3 +204,13 @@ footer .copyright {
     }
 }
 
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-link h1 {
+    margin-left: 10px;
+}
